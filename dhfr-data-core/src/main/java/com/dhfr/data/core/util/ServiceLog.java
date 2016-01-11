@@ -16,7 +16,6 @@ import org.aspectj.lang.annotation.Before;
  *
  * @author Deni Husni FR
  */
-@Aspect
 public class ServiceLog {
 
     private static final Logger LOGGER = Logger.getLogger(ServiceLog.class);
@@ -70,6 +69,4 @@ public class ServiceLog {
 
     }
 
- 
-    
 }
